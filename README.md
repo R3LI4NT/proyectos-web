@@ -7,7 +7,6 @@
 
 ### 2- Menú Bootstrap
 
-![FV5zvA](https://user-images.githubusercontent.com/75953873/126051254-be40855c-78d1-4bb7-bec7-303c17484626.png)
-3873/126051227-d3bf6852-236f-4fd0-909e-b3ebef06983e.gif)
+![FV5zvA](https://user-images.githubusercontent.com/75953873/126051274-331ad63b-9bae-48dc-9a8c-721c54f5e295.png)
 
-![cWgI1t](https://user-images.githubusercontent.com/75953873/126051256-aa1ad819-1e80-4574-bed7-9b7719aba3bd.png)
+![cWgI1t](https://user-images.githubusercontent.com/75953873/126051277-11943c3b-ef6f-477e-9c3d-c611fd6640c1.png)
