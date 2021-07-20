@@ -1,0 +1,86 @@
+/* Fuente de texto */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado {
+    background-color: #003666;
+    box-shadow: 0px 7px 8px rgba(0,0,0,0.40);
+}
+
+img {
+    height: 90px;
+    width: auto;
+}
+
+.encabezado nav {
+    display: flex;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.encabezado nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 12px 20px;
+    text-shadow: 1px 2px 1px #000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: block;
+    cursor: pointer;
+}
+
+a:hover{
+    background: #0D5DA4;
+}
+
+.encabezado .line:hover{
+    border-bottom: 2px solid #4187C6;
+}
+
+.encabezado nav ul li ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+    position: absolute;
+    background: #003666;
+    margin-top: 0;
+}
+
+.encabezado nav ul li ul li {
+    position: relative;
+}
+
+.encabezado nav ul li ul {
+    display: none;
+}
+
+.encabezado nav ul li:hover > ul {
+    display: block;
+}
+
+.encabezado nav ul li ul li a {
+    border-bottom: 1px solid #134878;
+}
+
+.encabezado nav ul li ul li ul {
+    position: absolute;
+    top: 0;
+    left: 140px;
+    font-size: 18px;
+}
