@@ -32,6 +32,14 @@
 
 ![lateral](https://user-images.githubusercontent.com/75953873/126854843-49c9eb74-851d-471d-b229-86f15d078096.gif)
 
+
+### 6- Menú Responsive + Search
+
+![Captura de pantalla (146)](https://user-images.githubusercontent.com/75953873/126857085-e0e308bf-19d3-46d3-a3b4-1e46a00fb1eb.png)
+
+![search](https://user-images.githubusercontent.com/75953873/126857102-cc8173c6-3878-4893-933c-5945f50c5061.gif)
+
+
 ##  FREE USE
 #### ~R3LI4NT~
 
