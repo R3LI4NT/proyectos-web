@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background: #00334e;
+    height: 80px;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+    box-shadow: 3px 4px 7px 3px rgba(0,0,0,0.30);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    line-height: 50px;
+    padding: 0 5px;
+    transition: 0.4s;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.4s;
+    padding: 27px 12px;
+    border-bottom: 5px solid #105173;
+}
+
+nav .logo {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav .search {
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+nav .search input {
+    border: none;
+    background: #fff;
+    padding-left: 8px;
+    outline: none;
+    width: 230px;
+}
+
+nav .search i {
+    color: #fff;
+    font-size: 20px;
+    height: 100%;
+    font-weight: bold;
+    padding: 7px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+nav .search i::after {
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: #DA1919;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.logo span {
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #DA1919;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+nav .bar {
+    position: relative;
+    margin: auto;
+    display: none;
+}
+
+nav .bar i {
+    position: absolute;
+    color: #fff;
+    font-size: 36px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    display: none;
+}
