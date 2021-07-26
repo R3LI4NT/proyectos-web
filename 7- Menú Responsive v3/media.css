@@ -1,0 +1,12 @@
+@media (max-width:700px) {
+    .menu {
+        left: -60px;
+        height: 65%;
+        margin-top: 60px;
+    }
+    .menu.active {
+        left: 0;
+        width: 100%;
+        clip-path: none;
+    }
+}
