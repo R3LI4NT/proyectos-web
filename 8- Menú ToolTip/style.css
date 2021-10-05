@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container {
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #4834d4;
+    background: #130f40;
+}
+
+.nav-container div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    padding: 10px;
+}
+
+.publico {
+    padding-bottom: 5rem !important;
+}
+
+.configuracion {
+    border-top: 1px solid #4834d4;
+}
+
+.nav-container a {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.nav-container a:hover, .nav-container a:focus, .nav-container a:active {
+    background: #26215D;
+}
+
+.nav-container a span {
+    padding: 7px 20px;
+    left: 150%;
+    top: 50%;
+    border-radius: 5px;
+    background: #262259;
+    position: absolute;
+    transform-origin: left;
+    transform: translateY(-50%) scale(0);
+    scale: 0;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.nav-container a:hover span, .nav-container a:focus span, .nav-container a:active span {
+    scale: 1;
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+.nav-container a span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.nav-container i {
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    font-size: 25px;
+}
