@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    width: 200px;
+    height: 100vh;
+    border-radius: 0 0px 20px 0;
+    background: #11101C;
+}
+
+.nav-container div {
+    margin: 50px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    padding: 10px;
+}
+
+.publico {
+    padding-bottom: 5rem !important;
+}
+
+.configuracion {
+    border-top: 1px solid #23213A;
+}
+
+.nav-container a {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    color: #ddd;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    line-height: 50px;
+}
+
+.nav-container i {
+    padding-right: 18px;
+    padding-left: 10px;
+    position: relative;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.nav-container a:hover {
+    background: #1A1830;
+}
+
+.nav-container a:active {
+    border:1px solid #ddd;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 65px;
+    position: absolute;
+    background: #11101C;
+}
+
+.icono-placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+    background: #2D2B43;
+    width: 250px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: inset 0 0 5px #000;
+    border: 1px solid #23213A;
+}
+
+.header i {
+    color: #ddd;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 220px;
+}
+
+.header i:active {
+    color: #CF2B2B;
+}
+
+.header img {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 155px;
+    border-radius: 50%;
+    background: transparent;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.header img:active {
+    border:1px solid #CF2B2B;
+}
+
+.header button {
+    position: absolute;
+    height: 35px;
+    width: 90px;
+    right: 30px;
+    background: #CF2B2B;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 4px #000;
+    border: 1px solid #A51A1A;
+    transition: 0.2s;
+}
+
+.header button:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    height: 150px;
+    top: 120px;
+    left: 270px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+}
+
+.card .numero {
+    position: absolute;
+}
+
+.card .numero h5{
+    padding: 35px 30px;
+    font-size: 35px;
+}
+
+.card .titulo {
+    position: absolute;
+}
+
+.card .titulo p {
+    padding: 90px 30px;
+    color: rgba(0,0,0,.7);
+    font-weight: bold;
+}
+
+.card i {
+    position: absolute;
+    padding: 50px 200px;
+    font-size: 50px;
+    color: #CF2B2B;
+}
+
+.card2 {
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    height: 150px;
+    top: 120px;
+    left: 635px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card2:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+}
+
+.card2 .numero {
+    position: absolute;
+}
+
+.card2 .numero h5{
+    padding: 35px 30px;
+    font-size: 35px;
+}
+
+.card2 .titulo {
+    position: absolute;
+}
+
+.card2 .titulo p {
+    padding: 90px 30px;
+    color: rgba(0,0,0,.7);
+    font-weight: bold;
+}
+
+.card2 i {
+    position: absolute;
+    padding: 50px 200px;
+    font-size: 50px;
+    color: #CF2B2B;
+}
+
+
+.card3 {
+    position: absolute;
+    background: #CF2B2B;
+    width: 300px;
+    height: 150px;
+    top: 120px;
+    left: 1000px;
+    box-shadow: 0 0 10px rgba(0,0,0,.7);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card3:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+}
+
+.card3 .numero {
+    position: absolute;
+}
+
+.card3 .numero h5{
+    padding: 35px 30px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.card3 .titulo {
+    position: absolute;
+}
+
+.card3 .titulo p {
+    padding: 90px 30px;
+    color: rgba(255,255,255,.9);
+    font-weight: bold;
+}
+
+.card3 i {
+    position: absolute;
+    padding: 50px 0;
+    margin: 0 200px;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+
+.visitas-container {
+    margin: 0 35px;
+    position: absolute;
+    top: 400px;
+    left: 270px;
+}
+
+
+.semi-circle-visitas {
+    width: 250px;
+    height: 125px;
+    --percentage:0;
+    --fill:#404040;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.semi-circle-visitas::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    border: 30px solid;
+    box-sizing: border-box;
+    border-color: #404040 #404040 #21AF08 #21AF08;
+    border-radius: 50%;
+    transform: rotate( calc(1deg * ( -45 + var(--percentage) * 1.8 ) ));
+    animation: animation-per 2s forwards;
+}
+
+@keyframes animation-per {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(135deg);
+    }
+}
+
+.semi-circle-visitas p {
+    color: #21AF08;
+    font-weight: 600;
+}
+
+
+.productos-container {
+    margin: 0 35px;
+    position: absolute;
+    top: 400px;
+    left: 635px;
+}
+
+
+.semi-circle-productos {
+    width: 250px;
+    height: 125px;
+    --percentage:0;
+    --fill:#404040;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.semi-circle-productos::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    border: 30px solid;
+    box-sizing: border-box;
+    border-color: #404040 #404040 #CF2B2B #CF2B2B;
+    border-radius: 50%;
+    transform: rotate( calc(1deg * ( -45 + var(--percentage) * 1.8 ) ));
+    animation: animation-per 2s forwards;
+}
+
+@keyframes animation-per {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(135deg);
+    }
+}
+
+.semi-circle-productos p {
+    color: #CF2B2B;
+    font-weight: 600;
+}
+
+
+
+.ganancias-container {
+    margin: 0 35px;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+}
+
+
+.semi-circle-ganancias {
+    width: 250px;
+    height: 125px;
+    --percentage:0;
+    --fill:#404040;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.semi-circle-ganancias::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    border: 30px solid;
+    box-sizing: border-box;
+    border-color: #404040 #404040 #0468CB #0468CB;
+    border-radius: 50%;
+    transform: rotate( calc(1deg * ( -45 + var(--percentage) * 1.8 ) ));
+    animation: animation-per 2s forwards;
+}
+
+@keyframes animation-per {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(135deg);
+    }
+}
+
+.semi-circle-ganancias p {
+    color: #0468CB;
+    font-weight: 600;
+}
