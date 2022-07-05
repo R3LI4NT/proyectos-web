@@ -3,6 +3,6 @@
 <h1 align="center"></h1>
 ###########################################################################################
 
- [¡] **TODOS LOS DISEÑOS ADJUNTADOS EN ESTE REPOSITORIO SON LIBRE DE USO** [!]
+ -> **TODOS LOS DISEÑOS ADJUNTADOS EN ESTE REPOSITORIO SON LIBRE DE USO** <-
 
 ###########################################################################################
