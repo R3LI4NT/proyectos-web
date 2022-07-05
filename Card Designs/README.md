@@ -1,4 +1,4 @@
-# Diseño de Tarjetas
+# Diseños de Tarjetas
 
 ### 1- Card Transparent
 
