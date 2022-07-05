@@ -1,0 +1,696 @@
+@media screen and (min-width: 375px) and (max-width: 812px) {
+
+    .top-bg h4 {
+        color: #fff;
+        position: relative;
+        top: 12px;
+        left: -100px;
+        font-size: 16px;
+    }
+    .top-bg i {
+        display: inline-block;
+        position: relative;
+        left: 100px;
+        font-size: 20px;
+        bottom: 9px;
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+    .contenido-portada img {
+        position: absolute;
+        height: 110px;
+        background: #000;
+        top: 95px;
+        left: 127px;
+        border-radius: 100%;
+        border: 2px solid #4F1EB3;
+        transition: 0.7s;
+        cursor: pointer;
+    }
+    .contenido-portada h1 {
+        color: #fff;
+        position: absolute;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 25px;
+        width: 300px;
+        top: 260px;
+        left: 63px;
+        transform: rotate(-8deg);
+        transition: 0.7s;
+        cursor: pointer;
+        text-shadow: -1px 4px 5px #000;
+    }
+    .contenido-portada p {
+        font-family: 'Space Mono', monospace;
+        color: #fff;
+        position: absolute;
+        top: 400px;
+        left: 82px;
+        font-size: 14px;
+    }
+    .contenido-portada .arrow-right {
+        color: rgba(255,255,255,.9);
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        position: absolute;
+        top: 401px;
+        left: 52px;
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #4F1EB3;
+    }
+
+    .contenido-portada .arrow-left {
+        color: #fff;
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        position: absolute;
+        top: 401px;
+        left: 291px;
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #4F1EB3;
+    }
+    .contenido {
+        font-family: 'Space Mono', monospace;
+        height: 683px;
+        position: absolute;
+        width: 100%;
+        background: #111111;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+    }
+    .contenido h1 {
+        padding: 37px 0;
+        font-size: 35px;
+        text-shadow: 3px 3px 3px rgba(0,0,0,.8);
+    }
+    
+    .contenido .line {
+        position: relative;
+        bottom: 40px;
+        left: 123px;
+        border-top: 4px solid #4F1EB3;
+        width: 120px;
+    }
+    .contenido h3 {
+        position: relative;
+        font-weight: 200;
+    }
+    .contenido .info {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    .contenido .info2 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido p .color {
+        color: #4F1EB3;
+        font-weight: bold;
+    }
+    
+    .contenido .info3 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido .info4 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido .info5 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido .info6 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido .info7 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido .info8 {
+        display: block;
+        text-align: justify;
+        font-size: 14px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    
+    .contenido .info9 {
+        display: block;
+        text-align: justify;
+        font-size: 13px;
+        position: absolute;
+        color: rgba(255,255,255,.8);
+    }
+    .contenido .title-dsc {
+        position: absolute;
+        top: 340px;
+        padding: 0 65px;
+    }
+    .contenido .resumen p {
+        color: rgba(255,255,255,.6);
+        text-align: justify;
+        font-size: 12px;
+        font-weight: normal;
+        position: absolute;
+        top: 370px;
+        width: 300px;
+        right: 34px;
+    }
+    .section-3 {
+        height: 1350px;
+        width: 100%;
+        background: #220A51;
+        opacity: 1;
+    }
+    .section-3 {
+        height: 1350px;
+        width: 100%;
+        background: #220A51;
+    }
+    
+    .section-3 .contenido-section-3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        position: relative;
+    }
+    
+    .section-3 .contenido-section-3 h1 {
+        position: relative;
+        top: 715px;
+        font-size: 35px;
+        font-family: 'Space Mono', monospace;
+        text-shadow: 3px 3px 3px rgba(0,0,0,.8);
+    }
+    .section-3 .contenido-section-3 .line {
+        position: relative;
+        top: 713px;
+        border-top: 4px solid #fff;
+        width: 160px;
+        left: 103px;
+    }
+
+    .section-3 .contenido-section-3 .line-vectical {
+        position: relative;
+        top: 1040px;
+        width: 485px;
+        border-top: 2px solid rgba(255,255,255,.7);
+        transform: rotate(90deg);
+        left: -59px;
+    }
+    .section-3 .contenido-section-3 h2 {
+        position: absolute;
+        top: 825px;
+        font-size: 35px;
+        font-family: 'Space Mono', monospace;
+        background: white;
+        width: 120px;
+        padding: 0 2px;
+        font-size: 20px; 
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #18181C;
+        left: 125px;
+    }
+    .section-3 .contenido-section-3 .maleta {
+        position: relative;
+        top: 870px;
+        font-size: 30px;
+        background: #674BCD;
+        border-radius: 50%;
+        border: 2px solid #10043B;
+        padding: 5px;
+        left: 161px;
+    }
+    .section-3 .contenido-section-3 .empleo {
+        font-size: 15px;
+        position: absolute;
+        top: 910px;
+        left: 22px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgba(255,255,255,.8);
+    }
+    .section-3 .contenido-section-3 .maleta-2 {
+        position: absolute;
+        top: 970px;
+        font-size: 30px;
+        background: #674BCD;
+        border-radius: 50%;
+        border: 2px solid #10043B;
+        padding: 5px;
+        left: 161px;
+    }
+    .section-3 .contenido-section-3 .empleo-2 {
+        font-size: 15px;
+        position: absolute;
+        top: 1010px;
+        left: 215px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgba(255,255,255,.8);
+    }
+    .section-3 .contenido-section-3 h3 {
+        position: absolute;
+        top: 1100px;
+        left: 120px;
+        font-size: 35px;
+        font-family: 'Space Mono', monospace;
+        background: white;
+        width: 135px;
+        font-size: 20px; 
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #18181C;
+    }
+    .section-3 .contenido-section-3 .graduacion {
+        position: absolute;
+        top: 1130px;
+        font-size: 30px;
+        background: #674BCD;
+        border-radius: 50%;
+        border: 2px solid #10043B;
+        padding: 5px;
+        left: 161px;
+    }
+    .section-3 .contenido-section-3 .educacion {
+        font-size: 15px;
+        position: absolute;
+        text-align: justify;
+        font-weight: 200;
+        color: rgba(255,255,255,.8);
+        top: 1180px;
+        left: 22px;
+    }
+    .section-3 .contenido-section-3 .graduacion-2 {
+        position: absolute;
+        font-size: 30px;
+        background: #674BCD;
+        border-radius: 50%;
+        border: 2px solid #10043B;
+        padding: 5px;
+        top: 1230px;
+        left: 161px;
+    }
+    .section-3 .contenido-section-3 .educacion {
+        font-size: 15px;
+        position: absolute;
+        top: 1170px;
+        left: 22px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgba(255,255,255,.8);
+    }
+    .section-3 .contenido-section-3 .educacion-2 {
+        font-size: 15px;
+        position: absolute;
+        top: 1270px;
+        left: 215px;
+        text-align: justify;
+        font-weight: 200;
+        color: rgba(255,255,255,.8);
+    }
+    .section-4 {
+        background: #111111;
+        width: 100%;
+        height: 970px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .section-4 h1 {
+        color: #fff;
+        font-family: 'Space Mono', monospace;
+        font-size: 35px;
+        position: relative;
+        bottom: 400px;
+        text-shadow: 3px 3px 3px rgba(0,0,0,.8);
+    }
+    .section-4 .line {
+        position: absolute;
+        bottom: 399px;
+        border-top: 4px solid #4F1EB3;
+        width: 140px;
+        left: 27px;
+    }
+    .section-4 .iconos .web {
+        color: #fff;
+        font-size: 50px;
+        position: absolute;
+        border-radius: 50%;
+        background: #2C1163;
+        width: 90px;
+        height: 90px;
+        top: -280px;
+        left: 52px;
+    }
+    .section-4 .des-web {
+        color: #fff;
+        font-size: 17px;
+        position: absolute;
+        top: -185px;
+        left: 1px;
+        font-family: 'Space Mono', monospace;
+        width: 200px;
+    }
+    .section-4 .contenido-des-web {
+        position: absolute;
+        font-family: 'Space Mono', monospace;
+        color: rgba(255,255,255,.7);
+        font-size: 10px;
+        width: 300px;
+        left: -49px;
+        top: -155px;
+    }
+    .section-4 .iconos .pentesting {
+        color: #fff;
+        font-size: 50px;
+        position: absolute;
+        border-radius: 50%;
+        background: #2C1163;
+        width: 90px;
+        height: 90px;
+        top: -40px;
+        left: 52px;
+    }
+    .section-4 .pentester {
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top: 53px;
+    left: 45px;
+    font-family: 'Space Mono', monospace;
+    }
+    .section-4 .contenido-pentester {
+        position: absolute;
+        font-family: 'Space Mono', monospace;
+        color: rgba(255,255,255,.7);
+        font-size: 10px;
+        width: 300px;
+        left: -49px;
+        top: 85px;
+    }
+    .section-4 .iconos .hardware {
+        color: #fff;
+        font-size: 50px;
+        position: absolute;
+        border-radius: 50%;
+        background: #2C1163;
+        width: 90px;
+        height: 90px;
+        top:210px;
+        left: 52px;
+    }
+    .section-4 .tecnico {
+        color: #fff;
+        font-size: 17px;
+        position: absolute;
+        top: 306px;
+        left: 4px;
+        font-family: 'Space Mono', monospace;
+        width: 200px;
+    }
+    .section-4 .contenido-tecnico {
+        position: absolute;
+        font-family: 'Space Mono', monospace;
+        color: rgba(255,255,255,.7);
+        font-size: 14px;
+        width: 300px;
+        top: 100px;
+        left: 348px;
+    }
+    .section-4 .contenido-tecnico {
+        position: absolute;
+        font-family: 'Space Mono', monospace;
+        color: rgba(255,255,255,.7);
+        font-size: 10px;
+        width: 300px;
+        left: -49px;
+        top: 340px;
+    }
+    .section-5 {
+        background: #220A51;
+        width: 100%;
+        height: 1210px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        position: relative
+    }
+    .section-5 h1 {
+        color: #fff;
+        font-family: 'Space Mono', monospace;
+        font-size: 35px;
+        position: relative;
+        bottom: 545px;
+        text-shadow: 3px 3px 3px rgba(0,0,0,.8);
+    }
+    .section-5 .line {
+        position: absolute;
+        bottom: 545px;
+        border-top: 4px solid #fff;
+        width: 170px;
+        left: 33px;
+    }
+    .section-5 .circulo-1 {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,.8);
+        height: 90px;
+        width: 90px;
+        left: 70px;
+        bottom: 350px;
+    }
+    .section-5 .circulo-2 {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,.8);
+        height: 90px;
+        width: 90px;
+        left: 70px;
+        bottom: 170px;
+    }
+    .section-5 .circulo-3 {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,.8);
+        height: 90px;
+        width: 90px;
+        left: 70px;
+        bottom: -20px;
+    }
+    .section-5 .circulo-4 {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,.8);
+        height: 90px;
+        width: 90px;
+        left: 70px;
+        top: 170px;
+    }
+    .section-5 .circulo-5 {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,.8);
+        height: 90px;
+        width: 90px;
+        left: 70px;
+        top: 355px;
+    }
+    .section-5 .circulo-6 {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,.8);
+        height: 90px;
+        width: 90px;
+        left: 70px;
+        top: 530px;
+    }
+    .section-5 .html-logo {
+        height: 60px;
+        position: absolute;
+        right: 451px;
+        bottom: 36px;
+    }
+    
+    .section-5 .html {
+        color: #fff;
+        position: absolute;
+        left: 87px;
+        bottom: 445px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 19px;
+    }
+    .section-5 .html-logo {
+        height: 50px;
+        position: absolute;
+        left: 96px;
+        bottom: 370px;
+    }
+    .section-5 .css-logo {
+        height: 50px;
+        position: absolute;
+        left: 96px;
+        bottom: 189px;
+    }
+    
+    .section-5 .css {
+        color: #fff;
+        position: absolute;
+        left: 93px;
+        bottom: 265px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 19px;
+    }
+    .section-5 .js-logo {
+        height: 40px;
+        position: absolute;
+        left: 96px;
+        bottom: 5px;
+    }
+    
+    .section-5 .js {
+        color: #fff;
+        position: absolute;
+        left: 66px;
+        bottom: 74px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 19px;
+    }
+    .section-5 .react-logo {
+        height: 40px;
+        position: absolute;
+        left: 95px;
+        top: 195px;
+    }
+    
+    .section-5 .react {
+        color: #fff;
+        position: absolute;
+        left: 87px;
+        top: 135px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 19px;
+    }
+    .section-5 .bootstrap-logo {
+        height: 40px;
+        position: absolute;
+        left: 95px;
+        top: 380px;
+    }
+    
+    .section-5 .bootstrap {
+        color: #fff;
+        position: absolute;
+        left: 68px;
+        top: 322px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 19px;
+    }
+    .section-5 .python-logo {
+        height: 40px;
+        position: absolute;
+        left: 95px;
+        top: 555px;
+    }
+    
+    .section-5 .python {
+        color: #fff;
+        position: absolute;
+        left: 79px;
+        top: 499px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-size: 19px;
+    }
+    footer .contenido {
+        height: 185px;
+        width: 100%;
+        background: #090909;
+    }
+    footer .contenido h2 {
+        position: absolute;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+        position: relative;
+        top: 25px;
+        left: 53px;
+        margin-left: 50px;
+        border-right: 3px solid rgba(255,255,255,.8);
+        border-left: 3px solid rgba(255,255,255,.8);
+        border-top: 3px solid rgba(255,255,255,.8);
+        border-bottom: 3px solid rgba(255,255,255,.8);
+        cursor: not-allowed;
+        transition: 0.4s;
+        letter-spacing: 2px;
+    }
+    footer .contacto {
+        position: absolute;
+        left: 95px;
+        top: 90px;
+    }
+    footer .derechos {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        position: absolute;
+        top: 80px;
+        left:-64px;
+        width: 300px;
+    }
+    .btn-arriba {
+        position: fixed;
+        bottom: 30px;
+        right:20px;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:24px;
+        color:#fff;
+        text-decoration: none;
+        opacity:0;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+}
