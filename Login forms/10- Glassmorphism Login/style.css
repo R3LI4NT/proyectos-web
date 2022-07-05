@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    /*font-family: 'PT Sans Narrow', sans-serif;*/
+}
+
+body {
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+form{
+    background: rgba(255,255,255,0.3);
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 90px;
+    height: 19em;
+    border-radius: 1.25rem;
+    border-top: 2px solid rgba(255,255,255,0.4);
+    border-left: 3px solid rgba(255,255,255,0.4);
+    box-shadow: 0 5px 15px rgba(0,0,0,.6);
+    backdrop-filter: blur(9px);
+}
+
+form h3 {
+    font-size: 33px;
+    color: rgba(255,255,255,0.85);
+    bottom: 25px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+
+form input {
+    display: block;
+    bottom: 30px;
+    position: relative;
+    margin: 50px 0;
+    width: 200px;
+    height: 40px;
+    border: none;
+    padding: 0 12px;
+    outline: none;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.6);
+    border-left: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+form input:focus {
+    border: none;
+    background: rgba(255,255,255,0.6);
+}
+
+form a {
+    display: block;
+    position: absolute;
+    top: 380px;
+    font-size: 17px;
+    left: 33%;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 2px 2px 7px rgba(0,0,0,.7);
+}
+
+.user {
+    position: absolute;
+    font-size: 25px;
+    left: 60px;
+    top:145px;
+    color: rgba(247,110,30,.6);
+}
+
+.lock {
+    position: absolute;
+    font-size: 25px;
+    left: 60px;
+    top:238px;
+    color: rgba(247,110,30,.6);
+}
+
+form button {
+    height: 45px;
+    width: 140px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255,255,255,.9);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 20px;
+    background: rgba(255,255,255,0.3);
+    cursor: pointer;
+    position: relative;
+    bottom: 43px;
+}
+
+form button:active {
+    background: rgba(255,255,255,.5);
+    border: 2px solid rgba(255, 255, 255, .5);
+}
+
+::placeholder {
+    color: rgba(0,0,0,.6);
+}
+
+.gota {
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(9px);
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px -8px rgba(0,0,0,.8);
+    border-top: 2px solid rgba(255,255,255,0.4);
+    border-left: 2px solid rgba(255,255,255,0.4);
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.gota-1 {
+    height: 100px;
+    width: 100px;
+    top: -30px;
+    left: -50px;
+    z-index: -1;
+}
+
+.gota-2 {
+    height: 70px;
+    width: 70px;
+    top: -15px;
+    right: -35px;
+    z-index: -1;
+}
+
+.gota-3 {
+    height: 120px;
+    width: 120px;
+    bottom: -30px;
+    right: -50px;
+    z-index: -1;
+}
+
+.gota-4 {
+    height: 90px;
+    width: 90px;
+    bottom: -15px;
+    left: -35px;
+    z-index: -1;
+}
+
+.gota-5 {
+    height: 150px;
+    width: 150px;
+    bottom: 180px;
+    left: 600px;
+    background: rgba(255,255,255,0.1);
+    z-index: -1;
+    border-top: 3px solid rgba(255,255,255,0.3);
+    border-left: 3px solid rgba(255,255,255,0.3);
+}
+
+.gota-6 {
+    height: 170px;
+    width: 170px;
+    bottom: 330px;
+    right: 670px;
+    background: rgba(255,255,255,0.1);
+    z-index: -1;
+    border-top: 3px solid rgba(255,255,255,0.3);
+    border-left: 3px solid rgba(255,255,255,0.3);
+}
+
+.gota-7 {
+    height: 50px;
+    width: 50px;
+    top: 460px;
+    right: 710px;
+    background: rgba(255,255,255,0.1);
+    z-index: -1;
+    border-top: 3px solid rgba(255,255,255,0.3);
+    border-left: 3px solid rgba(255,255,255,0.3);
+}
+
+.gota-8 {
+    height: 90px;
+    width: 90px;
+    bottom: 280px;
+    left: 720px;
+    background: rgba(255,255,255,0.1);
+    z-index: -1;
+    border-left: none;
+    border-top: 3px solid rgba(255,255,255,0.3);
+    border-left: 3px solid rgba(255,255,255,0.3);
+}

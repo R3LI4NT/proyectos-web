@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #111111;
+}
+
+form {
+    margin: auto;
+    padding: 80px 10px;
+    height: 22rem;
+    width: 25rem;
+    min-width: 290;
+    border:solid 1px #404040;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px 0 #000;
+}
+
+form:hover {
+    box-shadow: 0 0 2px 2px rgba(255,255,255,.8);
+}
+
+form p {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+}
+
+form input {
+    width: 100%;
+    margin: 7px 0;
+    height: 40px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border:1px solid #404040;
+    background-color: #0D0D0D;
+    color: #A2A1A1;
+    box-shadow: inset 0 0 3px 3px rgba(26,26,26,.7);
+}
+
+
+form button {
+    width: 35%;
+    margin-left: 33%;
+    height: 34px;
+    margin-top: 18px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: #fff solid 1px;
+    background-color: black;
+    color:#fff;
+    transition-duration:350ms;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #fff;
+    color:#000;
+    transition-duration:650ms;
+}
+
+.icon-user {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    
+}
+
+.icon-key {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.avatar {
+    width: 90px;
+    height: auto;
+    position: absolute;
+    border-radius: 50%;
+    top: 101px;
+    left: 635px;
+    border: 2px solid #fff;
+}
+
+/*Opcional */
+
+form a {
+    position: absolute;
+    bottom: 170px;
+    right: 612px;
+    font-size: 12px;
+    text-decoration: none;
+    color:#FF5900;
+}

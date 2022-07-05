@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-image: url(binary.png);
+    background-repeat: no-repeat;
+}
+
+.login {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 25rem;
+    height: 31.25rem;
+    padding: 80px 40px;
+    background:rgba(0,0,0,.8);
+}
+
+.login h2 {
+    margin:0;
+    padding: 0 0 50px;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #10D107;
+    
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4CBD47;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 36px;
+    color: #fff;
+}
+
+.icon-user {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+}
+
+.icon-lock {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+}
+
+.login button {
+    width: 50%;
+    margin-left: 24%;
+    height: 34px;
+    margin-top: 3px;
+    cursor: pointer;
+    color:#fff;
+    background: transparent;
+    border-color: #10D107;
+    transition: box-shadow 0.3s ease-in-out;
+    text-shadow: 2px 2px 2px black; 
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.login button:hover {
+    box-shadow: 0 0 30px 30px #10D107 inset;
+    text-shadow: 2px 2px 2px black;
+}
+
+.social .fab {
+    position: relative;
+    top: 40px;
+    left: 83px;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+    color: #e2e2e2;
+    transition-duration:550ms;
+}
+
+.social .fab:hover {
+    color:#10D107;
+    transition-duration:550ms;
+}

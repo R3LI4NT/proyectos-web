@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-image: url(img/paisaje.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1px);
+    background-size: cover;
+    width: 100vw;
+}
+
+form {
+    right: 485px;
+    top: 100px;
+    padding: 60px 20px;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    background:rgba(0,0,0,.5);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.74);
+    border-radius: 20px;
+}
+
+form h2 {
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 40px 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+form input {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    background: rgba(0,0,0,.8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+    width: 250px;
+    position: relative;
+    left: 54px;
+    margin: 4px 0;
+    display: block;
+}
+
+form input:hover {
+    box-shadow: 0 0 5px #ce181e, 0 0 5px #ce181e, 0 0 5px #ce181e;
+}
+
+form i {
+    position: relative;
+    bottom: 33px;
+    height: 35px;
+    left: 24px;
+    font-size: 21px;
+    color: #ce181e;
+    text-shadow: 1px 2px 1px rgba(0,0,0,.7);
+}
+
+form p {
+    position: relative;
+    font-size: 15px;
+    color: #ce181e;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    top: 56px;
+    left: 110px;
+    text-decoration: underline;
+}
+
+.fb {
+    position: relative;
+    top: 485px;
+    left: 516px;
+    color: #fff;
+    background-color: #2b4170;
+    background: -moz-linear-gradient(top, #3b5998, #2b4170);
+    background: -ms-linear-gradient(top, #3b5998, #2b4170);
+    background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+    font-family: sans-serif;
+    padding: 9px 25px;
+    box-shadow: inset -1px 1px 7px 0px rgba(0,0,0,0.74);
+}
+
+.ig {
+    position: relative;
+    font-family: sans-serif;
+    top: 485px;
+    left: 583px;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    padding: 9px 25px;
+    color: #fff;
+    box-shadow: inset -1px 1px 7px 0px rgba(0,0,0,0.74);
+}
+
+button {
+    position: relative;
+    font-family: sans-serif;
+    top: 370px;
+    left: 315px;
+    height: 40px;
+    background: #ce181e;
+    border: 2px solid rgba(0,0,0,.4);
+    color: white;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: #D11E24;
+    border: none;
+}
+

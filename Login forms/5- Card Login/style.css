@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    background: #FC466B;  
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B); 
+}
+
+.background-left-column{
+    background: #DA4453; 
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453); 
+    background: linear-gradient(to right, #89216B, #DA4453); 
+
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+    align-items: center;
+}
+
+.card {
+	background: #E53260;
+	border-radius: 1rem;
+	border-bottom: 10px solid #C92A53;
+	border-right: 8px solid #C92A53;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+	width: 35rem;
+	height: 21rem;
+}
+
+.card h6 {
+	opacity: 0.6;	
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+.left-column {	
+	color: white;
+    clip-path: polygon(0% 0%, 75% 0%, 63% 50%, 75% 100%, 0% 100%);
+	padding: 6rem;
+	
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column h2{
+	color: rgba(255,255,255,.9);
+    position: relative;
+    right: 50px;
+	bottom: 19px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.left-column i {
+	font-size: 5rem;
+    position: relative;
+    right: 50px;
+    bottom:45px;
+}
+
+.left-column a {
+	justify-content: center;
+	position:relative;
+	right: 41px;
+	top: 40px;
+	color:#F9316C;
+	transition-duration: 240ms;
+	font-size: 14px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.left-column a:hover {
+	color: rgba(255, 100, 146, .9);
+	transition-duration: 240ms;
+}
+
+.line {
+	position: relative;
+	right: 49px;
+	border: 0;
+	color: #EC346A;
+	top: 10px;
+}
+
+.right-column {
+	padding: 30px;
+	width: 100%;
+	display: flex;
+	background: #E53260;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+form input {
+	height: 36px;
+	margin:20px 0;
+	outline: none;
+	border: none;
+	width: 220px;
+	padding-left: 7px;
+	border-right: 3px solid #B53354;
+}
+
+.right-column i {
+	position: relative;
+	top: 48px;
+	right: 30px;
+	font-size: 20px;
+	color: rgba(0,0,0,.9);
+}
+
+.check-box {
+	position: relative;
+	font-size: 10px;
+	height: 15px;
+	bottom: 20px;
+	right: 101px;
+}
+
+form p {
+	position: relative;
+	bottom: 58px;
+	left: 25px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	color: rgba(255,255,255,.8);
+}
+
+button {
+	height: 40px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 30px;
+	position: relative;
+	bottom: 22px;
+	box-shadow: 3px 2px 3px rgba(0,0,0,.5);
+	background: #a71930;
+	left: 130px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+button:hover {
+	box-shadow: none;
+	background: rgba(0,0,0,.3);
+}

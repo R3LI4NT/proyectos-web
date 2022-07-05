@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    font-family: sans-serif;
+}
+
+.login{
+    width: 440px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 6px #0066a1, 0 0 6px #0066a1, 0 0 6px #0066a1;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid #0066a1;
+    margin-bottom: 48px;
+    padding: 12px 0;
+    cursor: crosshair;
+}
+
+.login h1:hover {
+    text-shadow: 0 0 6px #0066a1, 0 0 6px #0066a1, 0 0 6px #0066a1;
+}
+
+.text {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0066a1;
+}
+
+.text:hover {
+    box-shadow: 0 0 5px #0066a1, 0 0 5px #0066a1, 0 0 8px #0066a1;
+}
+
+.text i {
+    width:26px;
+    float: left;
+    text-align: center;
+}
+
+.text input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin: 0 10px;
+}
+
+a {
+    position: relative;
+    top: 66px;
+    font-size: 14px;
+    left: 32%;
+    text-decoration: none;
+    color:#0066a1;
+}
+
+
+.btn {
+    position: relative;
+    top: 15px;
+    width: 100%;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background: transparent;
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 2px solid #0066a1;
+    text-shadow: 2px 2px 2px black;    
+}
+
+.btn:hover {
+    background: #0066a1;
+    box-shadow: 0 0 8px #0066a1, 0 0 8px #0066a1, 0 0 20px #0066a1;
+}

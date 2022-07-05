@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.hexagono {
+    position: absolute;
+    left:50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    width: 470px;
+    height: 0;
+    border-top: 200px solid rgba(171, 249, 228,.3);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.hexagono:after {
+    content: '';
+    position: absolute;
+    left:50%;
+    top: -300px;
+    transform: translate(-50%,-50%);
+    width: 270px;
+    height: 0;
+    border-bottom: 200px solid rgba(171, 249, 228,.3);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+form h3 {
+    position: relative;
+    text-align: center;
+    top: 190px;
+    font-weight: 100;
+    color: rgba(255,255,255,.8);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+input {
+    position: relative;
+    top: 235px;
+    left: 493px;
+    height: 40px;
+    width: 290px;
+    background: rgba(255,255,255,.7);
+    outline: none;
+    border: none;
+    padding-left: 78px;
+    clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 20% 49%, 25% 0%);
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,.3);
+}
+
+form p {
+    position: relative;
+    top:233px;
+    left: 547px;
+    color: rgba(0,0,0,.7);
+}
+
+form .far {
+    position: relative;
+    top:234px;
+    padding-right: 3px;
+    left: 549px;
+    color: rgba(0,0,0,.7);
+}
+
+form .fas {
+    position: relative;
+    top:234px;
+    left: 549px;
+    padding-right: 3px;
+    color: rgba(0,0,0,.6);
+}
+
+form button {
+    position: relative;
+    top:300px;
+    left: 293px;
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid #023C6D;
+    outline: none;
+    background: rgba(21,84,139,.6);
+    color: rgba(255,255,255,.8);
+    transition-duration: 500ms;
+    letter-spacing: 2px;
+}
+
+form button:hover {
+    background: #094579;
+    transition-duration: 500ms;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: url(https://github.com/supahfunk/gradientwaves-svg/blob/master/dist/img/bg-gradient-wave.png?raw=true) repeat center / cover;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+
+    &.path {
+
+        path {
+            stroke: none;
+        }
+    }
+
+    &.stroke {
+
+        path {
+            fill: none;
+            stroke-width: 1px;
+        }
+    }
+
+    .circle {
+        fill: #fff;
+    }
+}
