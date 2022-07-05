@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background: #051723;
+    min-height: 100vh;
+}
+
+.menu {
+    background: #07374D;
+    height: 100%;
+    position: fixed;
+    width: 60px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.menu:hover, .menu.active {
+    width: 220px;
+    transition: 0.5s;
+    clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 0 100%, 0% 80%, 0% 20%);
+}
+
+.menu ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu ul li {
+    position: relative;
+    width: 100%;
+}
+
+.menu ul li a {
+    color: #FFFFFF;
+    position: relative;
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+}
+
+.menu ul li a .texto {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+    text-align: start;
+    font-size: 15px;
+}
+
+.menu ul li:hover {
+    background: #03A9F5;
+    cursor: pointer;
+    border-bottom: 2px solid #03293B;
+    border-top: 2px solid #03293B;
+}
+
+.menu ul li a .icono {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.interactuar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #07374D;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.interactuar.active {
+    background: #03A9F5;
+}
+
+.interactuar:before {
+    font-family: "FontAwesome";
+    content: "\f0c9";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.interactuar.active:before {
+    content: '\f00d';
+}

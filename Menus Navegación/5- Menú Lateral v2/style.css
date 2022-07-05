@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.contenedor {
+    display: flex;
+    position: relative;
+}
+
+.contenedor .secciones {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: #AA076B;  
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  
+    background: linear-gradient(to right, #61045F, #AA076B);
+    padding: 35px 0;
+}
+
+.contenedor .secciones h3 {
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 25px;
+    text-shadow: 0px 0px 0 rgb(230,230,230),
+                 0px 1px 0 rgb(206,206,206),
+                 0px 2px 0 rgb(181,181,181),
+                 0px 3px 0 rgb(157,157,157),
+                 0px 4px 0 rgb(132,132,132),
+                 0px 5px  0 rgb(107,107,107),
+                 0px 6px 5px rgba(0,0,0,0.6),
+                 0px 6px 1px rgba(0,0,0,0.5),
+                 0px 0px 5px rgba(0,0,0,.2);
+}
+
+.contenedor .secciones ul li {
+    padding: 13px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.13);
+    border-bottom: 1px solid rgba(0,0,0,0.13);
+    cursor: pointer;
+}
+
+.contenedor .secciones ul li:hover {
+    background: rgba(0,0,0,0.10);
+}
+
+.contenedor .secciones ul li a{
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+    display: block;
+}
+
+.contenedor .secciones ul li .bx {
+    padding: 0 5px;
+    font-size: 20px;
+    color: #C1C1C1;
+    cursor: pointer;
+}
+
+.contenedor .secciones .redes-sociales {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+}
+
+.contenedor .secciones .redes-sociales a {
+    display: block;
+    width: 45px;
+    background: rgba(255,255,255,0.30);
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 6px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.contenedor .secciones .redes-sociales a:hover {
+    background: rgba(0,0,0,0.40);
+}
+
+.contenedor .contenido {
+    width: 100%;
+    margin-left: 12.5rem;
+}
+
+.contenedor .contenido .encabezado {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.20);
+}
+
+.contenedor .contenido .encabezado p {
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+.contenedor .contenido .encabezado button {
+    float: right;
+    bottom: 31px;
+    margin: 0 15px;
+    height: 35px;
+    width: 80px;
+    position: relative;
+}
+
+.login-btn {
+    background: transparent;
+    outline: none;
+    border:2px solid #AA076B;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    transition: 0.5s;
+    background: rgba(170,7,107,0.25);
+}
+
+.register-btn {
+    background: #AA076B;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 1px 7px #000;
+}
+
+.contenedor .contenido .informacion {
+    margin: 20px;
+}
+
+.contenedor .contenido .informacion p {
+    padding: 15px 0;
+    text-align: justify;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #343233;
+}

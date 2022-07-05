@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <title>Menú de navegación</title>
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style type="text/css">
+    body {
+      background: #fff;
+    }
+    nav {
+      background: #000;
+      border:2px solid #FF6D20; 
+    }
+    .dropdown-menu {
+      background: #000;
+    }
+  </style>    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+    <a href="#" class="navbar-brand ">
+      TIENDA Lorem
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#firtsNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="firtsNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle text-white" data-toggle="dropdown">
+          Productos
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item text-warning">Esponjas</a>
+            <a href="#" class="dropdown-item text-danger">Limpiador de vidrios</a>
+            <a href="#" class="dropdown-item text-success">Detergente</a>
+            <a href="#" class="dropdown-item text-primary">Vinagre</a>
+          </div>
+        </li>              
+        <li class="nav-item"><a class="nav-link text-white" href="#">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Informacion</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Dirección</a></li>  
+      </ul> 
+    <form class="form-inline">
+        <input type="text" class="form-control" placeholder="Escribe una palabra...">
+          <button type="button" class="btn btn-outline-info m-1 mt-1">
+          Buscar
+          </button>
+    </form>           
+    </div>
+    </div>
+  </nav>    
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

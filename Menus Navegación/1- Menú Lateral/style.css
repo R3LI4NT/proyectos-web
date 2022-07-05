@@ -1,0 +1,359 @@
+/* Fuente de texto */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+    background: #161618;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #121213;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+nav img {
+    height: 65px;
+    width: auto;
+    margin-left: 30px;
+}
+
+nav span i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+section {
+    background: #2C2C2C;
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 86px;
+    transition: 0.5s;
+}
+
+section:hover {
+    overflow-y: auto;
+}
+
+.desplegar {
+    transform: translateX(-100%);
+}
+
+section::-webkit-scrollbar {
+    width: 8px;
+}
+
+section::-webkit-scrollbar-thumb {
+    background: #909090;
+    border-radius: 6px;
+}
+
+.container {
+    border-bottom: 1px solid rgba(22,22,24,.7);
+    padding: 10px 2px;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.container div:hover {
+    background: #434343;
+}
+
+.container div span {
+    margin-left: 15px;
+}
+
+nav input {
+    margin-left: 220px;
+    height: 36px;
+    width: 330px;
+    padding: 0 13px;
+    border:none;
+    outline: none;
+    font-size: 15px
+}
+
+nav button {
+    height: 36px;
+    margin-left: 7px;
+    width: 60px;
+    background: #0066a1;
+    color: #fff;
+    border:solid 2px #014A74;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+nav input:hover {
+    box-shadow: 0 0 6px #0066a1, 0 0 6px #0066a1, 0 0 6px #0066a1;
+}
+
+nav .sesion .login {
+    margin-left: 20rem;
+    height: 43px;
+    width: 76px;
+    background: transparent;
+    border: 2px solid #0066a1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+nav .sesion .login:hover {
+    background: #0066a1;
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px #014A74;
+}
+
+nav .sesion .register {
+    height: 43px;
+    width: 76px;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px #014A74;
+}
+
+/* PRIMERA SECCIÓN */
+.container p {
+    text-align: center;
+}
+
+.inicio-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.inicio-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.info-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.info-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.donar-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.donar-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* SEGUNDA SECCIÓN */
+.container .title {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #AAA;
+}
+
+.accion-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.accion-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.aventura-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.aventura-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cf-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.cf-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.catastrofe-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.catastrofe-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.comedia-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.comedia-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.deporte-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.deporte-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.guerra-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.guerra-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.infantil-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.infantil-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.misterio-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.misterio-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.super-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.super-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.suspenso-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.suspenso-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sn-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.sn-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.terror-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.terror-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.zombie-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.zombie-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* TERCERA SECCIÓN */
+.container .title-2 {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #AAA;
+}
+
+.config-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.config-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ayuda-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.ayuda-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.comentarios-icon i {
+    color: #909090;
+    font-size: 24px;
+}
+
+.comentarios-icon span {
+    font-size: 17px;
+    font-weight: bold;
+}
