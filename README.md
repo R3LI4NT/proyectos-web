@@ -5,6 +5,6 @@
 </br>
 
 ##################################################################
--> **TODOS LOS DISEÑOS ADJUNTADOS EN ESTE REPOSITORIO SON LIBRE DE USO** <-
 
+-> **TODOS LOS DISEÑOS ADJUNTADOS EN ESTE REPOSITORIO SON LIBRE DE USO** <-
 ##################################################################
