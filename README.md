@@ -37,3 +37,5 @@
 - 13).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Galeria" target="_blank">Galería de Imágenes</a>
 
 - 14).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Imagen%20Efecto%20Transform">Imagen Efecto Transform</a>
+
+- 15).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Sliders">Sliders</a>
