@@ -34,4 +34,4 @@
 
 - 12).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Panel%20Admin" target="_blank">Panel Admin</a>
 
-- 12).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Galeria" target="_blank">Galeria de Imágenes</a>
+- 13).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Galeria" target="_blank">Galeria de Imágenes</a>
