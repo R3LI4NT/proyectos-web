@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1F1F1F;
+}
+
+.wrapper {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent {
+    width: 450px;
+    margin: 20px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+
+.parent:hover .child {
+    transform: scale(1.4) rotate(-10deg);
+}
+
+h4 {
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: all 1.1s;
+    font-family: 'Patua One', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0 3px -2px rgba(0,0,0,0.7);
+}
+
+.parent:hover h4 {
+    transform: none;
+}
+
+.hacker {
+    background-image: url(img/hacker.png);
+}
