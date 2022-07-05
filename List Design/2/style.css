@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+}
+
+.main-content {
+    height: 70px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.background_1:hover {
+    background-color: #7158e2;
+    height: 80px;
+    width: 320px;
+}
+
+.title h4 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 19px;
+}
+
+.main-content:hover h4 {
+    color: #fff;
+    font-size: 21px;
+}
+
+.icon .bx {
+    position: relative;
+    font-size: 30px;
+    left: 75px;
+    visibility:hidden;
+    color: #fff;
+    text-shadow: -1px 1px 1px rgba(0,0,0,.4);
+}
+
+.main-content:hover .icon .bx {
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    font-size: 33px;
+}
+
+.background:hover {
+    background-color: #d63031;
+    height: 80px;
+    width: 320px;
+}
+
+.background_3:hover {
+    background-color: #EE5A24;
+    height: 80px;
+    width: 320px;
+}
+
+.background_4:hover {
+    background-color: #3d3d3d;
+    height: 80px;
+    width: 320px;
+}

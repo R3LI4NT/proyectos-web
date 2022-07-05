@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #128BFC;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    height: 350px;
+    width: 320px;
+    background: #fff;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.1);
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    width: 320px;
+    height: 10px;
+    background-color: #0652DD;
+    transition: 0.5s ease-in-out;
+}
+
+.title {
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 25px;
+    color: #0652DD;
+    text-shadow: 1px 2px 1px rgba(0,0,0,.9);
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 45px;
+    border-bottom: 4px solid #0652DD;
+}
+
+.content {
+    position: relative;
+    padding: 20px 40px;
+}
+
+.content a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #101010;
+    transition: 0.3s ease-in-out;   
+    padding-left: 8px;
+}
+
+.content a:hover {
+    border: 2px solid #0652DD;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.content a .bx {
+    font-size: 20px;
+    position: relative;
+    left: 145px;
+}
