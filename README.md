@@ -31,3 +31,5 @@
 - 10).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Barras%20Skills" target="_blank">Barras de Skills</a>
 
 - 11).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Acordeon" target="_blank">Acordeon</a>
+
+- 12).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Panel%20Admin" target="_blank">Panel Admin</a>
