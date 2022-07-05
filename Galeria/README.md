@@ -1,4 +1,4 @@
-# Galeria de Imágenes
+# Galería de Imágenes
 
 ![1](https://user-images.githubusercontent.com/75953873/177407214-a5d45a4c-57c0-4fee-a2b5-26803590900a.png)
 
