@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.container-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background: #121212;
+    padding: 10px 17px;
+    border: 2px solid #00AEF0;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.6);
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Sansita', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ventana-modal {
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.ventana-modal:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.ventana-modal > div {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    background: #121212;
+    color: #f2f2f2;
+    border-radius: 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+
+.ventana-modal h1 {
+    font-size: 2em;
+    margin: 0 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.ventana-modal p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 3000;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.cerrar {
+    color: #ccc;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+i {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cerrar:hover {
+    color: #E32525;
+}
+
+.info-btn {
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.info-btn a {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #EFEFEF;
+    transition: 0.2s;
+}
+
+.info-btn a:hover {
+    color: #00AEF0;
+}
