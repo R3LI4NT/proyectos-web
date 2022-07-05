@@ -27,3 +27,5 @@
 - 8).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Acordeon" target="_blank">Acordeon</a>
 
 - 9).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Botones" target="_blank">Diseño de Botones</a>
+
+- 10).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Dise%C3%B1o%20de%20Reproductor" target="_blank">Diseño de Reproductor</a>
