@@ -10,7 +10,7 @@
 
 <sub>**Lista de Diseños:**</sub>
 
-- 1).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Menus%20Navegaci%C3%B3n" target="_blank">Menus de navegación</a>
+- 1).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Menus%20Navegaci%C3%B3n" target="_blank">Menús de navegación</a>
 
 - 2).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Login%20forms" target="_blank">Login Forms</a>
 
@@ -34,4 +34,4 @@
 
 - 12).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Panel%20Admin" target="_blank">Panel Admin</a>
 
-- 13).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Galeria" target="_blank">Galeria de Imágenes</a>
+- 13).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Galeria" target="_blank">Galería de Imágenes</a>
