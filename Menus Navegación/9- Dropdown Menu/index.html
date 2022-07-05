@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="logo.jpg" alt="">
+        </div>
+        <div class="menu">
+            <h3>Someone Famous <br><span>Website Designer</span></h3>
+            <ul>
+                <li><i class='bx bx-user-circle'></i><a href="#">Mi perfil</a></li>
+                <li><i class='bx bxs-edit'></i><a href="#">Editar perfil</a></li>
+                <li><i class='bx bx-envelope'></i><a href="#">Inbox</a></li>
+                <li><i class='bx bx-help-circle' ></i><a href="#">Ayuda</a></li>
+                <li><i class='bx bx-cog'></i><a href="#">Configuración</a></li>
+                <li><i class='bx bx-log-out'></i><a href="#">Salir</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

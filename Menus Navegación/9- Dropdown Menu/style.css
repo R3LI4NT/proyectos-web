@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #222f3e;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 60px;
+    width: auto;
+}
+
+.action {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+.action .profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.action .profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.action .menu {
+    position: absolute;
+    top: 120px;
+    right: -10px;
+    padding: 10px 20px;
+    background: #fff;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.action .menu.active {
+    top: 80px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 20px;
+    height: 20´x;
+    background: #fff;
+    transform: rotate(45deg);
+}
+
+.action .menu  h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: #555;
+    list-style: 1.5em;
+}
+
+.action .menu h3 span {
+    font-size: 14px;
+    color: #888;
+}
+
+.action .menu ul li {
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.action .menu ul li i {
+    max-width: 20px;
+    margin-right: 5px;
+    font-size: 22px;
+    opacity: 0.8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.action .menu ul li:hover i {
+    opacity: 1;
+}
+
+.action .menu ul li a {
+    display: inline-block;
+    color: #555;
+    transition: 0.5s;
+}
+
+.action .menu ul li:hover a {
+    color: #ff322e;
+}
