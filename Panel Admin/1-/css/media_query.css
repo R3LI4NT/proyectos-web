@@ -1,0 +1,70 @@
+@media screen and (max-width:700px) {
+    .nav-container {
+        width: 160px;
+        height: 100vh;
+    }
+    .nav-container a {
+        font-size: 13px;
+    }
+    .nav-container i {
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+
+    .card {
+        width: 260px;
+        height: 150px;
+        top: 120px;
+        left: 180px;
+    }
+
+    .card i {
+        padding: 50px 180px;
+    }
+
+    .card2 {
+        width: 260px;
+        height: 150px;
+        top: 320px;
+        left: 180px;
+    }
+
+    .card2 i {
+        padding: 50px 180px;
+    } 
+    
+    .card3 {
+        width: 260px;
+        height: 150px;
+        top: 520px;
+        left: 180px;
+    }
+
+    .card3 i {
+        padding: 50px 180px;
+    }
+    
+    input {
+        position: relative;
+        right: 110px;
+        width: 230px;
+    }
+    .header img {
+        position: absolute;
+        right: 140px;
+    }
+
+    .header i {
+        position: absolute;
+        right: 190px;
+    }
+    .visitas-container {
+        visibility: hidden;
+    }
+    .productos-container {
+        visibility: hidden;
+    }
+    .ganancias-container {
+        visibility: hidden;
+    }
+} 
