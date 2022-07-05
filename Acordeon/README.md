@@ -1,7 +1,7 @@
 # Diseño de Acordeon
 
-![Captura de pantalla (499)](https://i.ibb.co/PFw5hqg/Captura-de-pantalla-355.png)
+![1](https://user-images.githubusercontent.com/75953873/177399193-c7874e91-2ba9-4abe-bfb1-fe2656a9ece6.png)
 
-![Captura de pantalla (499)](https://i.ibb.co/qxBDypD/Captura-de-pantalla-356.png)
+![2](https://user-images.githubusercontent.com/75953873/177399227-ee024a68-7f8f-4c03-9895-eacdc39d85e7.png)
 
-![Captura de pantalla (499)](https://i.ibb.co/Tq6xBLc/ezgif-com-gif-maker.gif)
+![3](https://user-images.githubusercontent.com/75953873/177399255-71544791-9467-483f-bb43-c10ed329e9d4.gif)
