@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f1;
+}
+
+h1 {
+    position: absolute;
+    top: 120px;
+    font-style: italic;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.container .icon {
+    display: flex;
+    position: relative;
+    margin: 0 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.5s cubic-bezier(0.70, -0.55, 0.30, 1.5);
+}
+
+.container .icon span {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    text-shadow: -1px 2px 3px rgba(0,0,0,.30);
+    box-shadow: 0 7px 10px rgba(0,0,0,0.2);
+    line-height: 50px;
+    font-size: 22px;
+    position: relative;
+    z-index: 2;
+    transition: 0.5s cubic-bezier(0.70, -0.55, 0.30, 1.5);
+}
+
+.container .icon .tooltip {
+    position: absolute;
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.2);
+    transition: 0.5s cubic-bezier(0.70, -0.55, 0.30, 1.5);
+}
+
+.icon .tooltip:before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%) rotate(45deg);
+    background: #fff;
+    transition: 0.5s cubic-bezier(0.70, -0.55, 0.30, 1.5);
+}
+
+.container .icon:hover .tooltip {
+    top: -60px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.container .icon:hover span {
+    color: #fff;
+}
+
+.container .facebook:hover span,
+.container .facebook:hover .tooltip,
+.container .facebook:hover .tooltip:before {
+    background: #3b5998 ;
+}
+
+.container .facebook:hover span,
+.container .facebook:hover .tooltip {
+    box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+}
+
+.container .instagram:hover span,
+.container .instagram:hover .tooltip,
+.container .instagram:hover .tooltip:before {
+    background: #DD2A7B ;
+}
+
+.container .instagram:hover span,
+.container .instagram:hover .tooltip {
+    box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+}
+
+.container .twitter:hover span,
+.container .twitter:hover .tooltip,
+.container .twitter:hover .tooltip:before {
+    background: #00ACEE ;
+}
+
+.container .twitter:hover span,
+.container .twitter:hover .tooltip {
+    box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+}
+
+.container .whatsapp:hover span,
+.container .whatsapp:hover .tooltip,
+.container .whatsapp:hover .tooltip:before {
+    background: #25D366;
+}
+
+.container .whatsapp:hover span,
+.container .whatsapp:hover .tooltip {
+    box-shadow: inset 0 0 5px 2px rgba(0,0,0,0.2);
+}

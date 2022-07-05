@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ 
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.main {
+    display: flex;
+}
+ 
+li {
+    list-style: none;
+    padding: 60px;
+}
+ 
+/* BOTONES */
+ 
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    background: white;
+    font-family: 'Fjalla One', sans-serif;
+    width: 12rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: rotate(-30deg)skew(20deg);
+    box-shadow: -25px 25px 10px rgba(0,0,0,0.6);
+    transition-duration:350ms;
+}
+ 
+a:before,
+a:after {
+    content: '';
+    position: absolute;
+    background: #B0B0B0;
+    transition-duration:350ms;
+}
+ 
+a:after {
+    bottom:-20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    transform:rotate(0deg)skewX(-45deg);
+}
+ 
+a:before {
+    top: 10px;
+    left:-20px;
+    height: 100%;
+    width: 20px;
+    transform:rotate(0deg)skewY(-45deg);
+}
+ 
+ 
+a:hover {
+    transform: rotate(-30deg)skew(25deg) translate(20px, -15px);
+    box-shadow: -55px 55px 55px rgba(0,0,0,0,6);
+    color:white;
+}
+ 
+.fab {
+    font-size: 35px;
+    padding: 0 22px;
+}
+ 
+ 
+/* Facebook */
+.boton-fb:hover:nth-child(1) a {
+    background: #3b5998 ;
+}
+.boton-fb:hover:nth-child(1) a:after {
+    background: #435F99 ;
+}
+.boton-fb:hover:nth-child(1) a:before {
+    background: #294682;
+}
+ 
+ 
+/* Twitter */
+.boton-tw:hover:nth-child(2) a {
+    background: #00acee ;
+}
+.boton-tw:hover:nth-child(2) a:after {
+    background: #3AB8E8 ;
+}
+.boton-tw:hover:nth-child(2) a:before {
+    background: #0094CD ;
+}
+ 
+ 
+/* Instagram */
+.boton-ig:hover:nth-child(3) a {
+    background: #C13584 ;
+}
+.boton-ig:hover:nth-child(3) a:after {
+    background: #C45493 ;
+}
+.boton-ig:hover:nth-child(3) a:before {
+    background: #9E2068 ;
+}
+ 
+ 
+/* WhatsApp */
+.boton-wsp:hover:nth-child(4) a {
+    background: #25d366 ;
+}
+.boton-wsp:hover:nth-child(4) a:after {
+    background: #33E575 ;
+}
+.boton-wsp:hover:nth-child(4) a:before {
+    background: #19AF51 ;
+}
+ 

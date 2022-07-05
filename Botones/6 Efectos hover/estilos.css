@@ -1,0 +1,131 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+ 
+body {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(60deg, #000000 0%, #434343 100%);
+        font-family: 'Titillium Web', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+ 
+button:focus {
+        outline: 0;
+}
+ 
+button {
+        background-color: transparent;
+        border: 2px solid;
+        font-size: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        margin: 20px;
+        padding: 1.1rem 1.9rem;
+        color: #fff;
+}
+ 
+/* BOTON 1 */
+ 
+.btn_1 {
+        border-color: #3F9768;
+        transition: box-shadow 0.3s ease-in-out;
+        text-shadow: 2px 2px 2px black; 
+}
+ 
+.btn_1:hover {
+        box-shadow: 0 0 30px 30px #3F9768 inset;
+}
+ 
+ 
+/* BOTON 2 */
+ 
+.btn_2 {
+        background-image: linear-gradient(50deg, #2D65DD 50%, transparent 50%);
+        border-color: #2D65DD;
+        background-position: 100%;
+        background-size: 250%;
+        text-shadow: 2px 2px 2px black; 
+        transition: background 0.4s ease-in-out;
+ 
+}
+ 
+.btn_2:hover {
+        background-position: 0;
+}
+ 
+ 
+/* BOTON 3 */
+ 
+.btn_3 {
+        border-color: #CF2A2A;
+        box-shadow: 0 0 30px 30px #CF2A2A inset;
+        transition: box-shadow 0.3s ease-in-out;
+}
+ 
+.btn_3:hover {
+        box-shadow: 0 0 12px 0 #CF2A2A inset, 0 0 12px 4px #CF2A2A;
+}
+ 
+ 
+/* BOTON 4 */
+ 
+.btn_4 {
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 2px solid #FF0B0B;
+    text-shadow: 2px 2px 2px black;    
+}
+ 
+.btn_4:hover {
+    background: #FF0B0B;
+    box-shadow: 0 0 12px #FF0B0B, 0 0 12px #FF0B0B, 0 0 22px #FF0B0B;
+}
+ 
+ 
+/* BOTON 5 */
+ 
+.btn_5 {
+        border-color: #FF8B25;
+        position: relative;
+        overflow: hidden;
+        text-shadow: 2px 2px 2px black; 
+        z-index: 1;
+}
+ 
+.btn_5:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 100%;
+        background-color: #FF8B25;
+        z-index: -1;
+        transition: width 0.3s ease-in-out;
+}
+ 
+.btn_5:hover:after {
+        width: 110%;
+}
+ 
+ 
+/* BOTON 6 */
+ 
+.btn_6 {
+        border: none;
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+        transition: 0.3s;
+}
+ 
+.btn_6:hover {
+        box-shadow: 0 5px 10px 0 rgba(252,122,249);
+        transition: 0.3s;
+}
