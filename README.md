@@ -13,3 +13,5 @@
 - 1).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Menus%20Navegaci%C3%B3n" target="_blank">Menus de navegación</a>
 
 - 2).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Barras%20Skills" target="_blank">Barras de Skills</a>
+
+- 3).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Footer%20Designs" target="_blank">Footer Designs</a>
