@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    transform-style: preserve-3d;
+    margin: 0 30px;
+}
+
+.card .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    transition: 1.3s ease-in-out;
+    backface-visibility: hidden;
+    transform: perspective(500px) rotateY(0deg);
+    box-shadow: 5px 0px 5px rgba(0,0,0,0.70);
+}
+
+.card .name.portada {
+    background: #000;
+    border-radius: 20px;
+    color: #fff;
+    border-bottom: 10px solid #0A0A0A;
+
+}
+
+.card:hover .name.portada{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card .name.info {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    border: 2px solid #898989;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card p {
+    position: relative;
+    bottom: 10px;
+}
+
+.card h4 {
+    text-align: center;
+    position: absolute;
+    bottom: 260px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card:hover .name.info{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.card h2 {
+    position: absolute;
+    bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.card .img-icon {
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    width: auto;
+}
+
+.logo {
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.card button {
+    position: absolute;
+    top: 250px;
+    height: 32px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid #BF2121;
+    color: #fff;
+    background: #000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #0C0C0C;
+}

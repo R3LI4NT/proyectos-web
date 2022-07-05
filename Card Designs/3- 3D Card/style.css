@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #F6F6F6;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 65rem;
+    display: flex;
+    transform: skewY(-6deg);
+    transition: 0.5s;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .card1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.container .card2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.container .card3 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transition: 0.5s;
+}
+.container .card1::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    transform-origin: bottom;
+    background: #3b5998;
+    transform:skewX(45deg);
+    transform: 0.5s;
+}
+
+.container .card1::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 15px;
+    height: 50%;
+    transform-origin: left;
+    background: #3b5998;
+    transform:skewY(45deg);
+    transform: 0.5s;
+    border-bottom: 200px solid #DEDDDD;
+}
+
+.container .card2::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 15px;
+    height: 50%;
+    transform-origin: left;
+    background: #c4302b;
+    transform:skewY(45deg);
+    transform: 0.5s;
+    border-bottom: 200px solid #DEDDDD;
+}
+
+.container .card3::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 15px;
+    height: 50%;
+    transform-origin: left;
+    background: #25d366;
+    transform:skewY(45deg);
+    transform: 0.5s;
+    border-bottom: 200px solid #DEDDDD;
+}
+
+.container .card2::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    transform-origin: bottom;
+    background: #c4302b;
+    transform:skewX(45deg);
+    transform: 0.5s;
+}
+
+.container .card3::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    transform-origin: bottom;
+    background: #25d366;
+    transform:skewX(45deg);
+    transform: 0.5s;
+}
+
+.container .card1:hover {
+    transform: translateY(-40px);
+}
+
+.container .card2:hover {
+    transform: translateY(-40px);
+}
+
+.container .card3:hover {
+    transform: translateY(-40px);
+}
+
+.container .card1 i {
+    font-size: 90px;
+    position: relative;
+}
+
+.container .card2 i {
+    font-size: 90px;
+    position: relative;
+}
+
+.container .card3 i {
+    font-size: 90px;
+    position: relative;
+}
+
+
+.container .card1 .top-fb {
+    background: #3b5998;
+    color: #fff;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card2 .top-yt {
+    background: #c4302b;
+    color: #fff;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card3 .top-wsp {
+    background: #25d366;
+    color: #fff;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .card1 .contenido {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.container .card2 .contenido {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.container .card3 .contenido {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.container .card1 .contenido:before {
+    content: '';
+    background: linear-gradient(transparent,transparent, rgba(0,0,0,.2));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+}
+.container .card2 .contenido:before {
+    content: '';
+    background: linear-gradient(transparent,transparent, rgba(0,0,0,.2));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+}
+.container .card3 .contenido:before {
+    content: '';
+    background: linear-gradient(transparent,transparent, rgba(0,0,0,.2));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+}

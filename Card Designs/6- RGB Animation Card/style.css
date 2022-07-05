@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #00363d;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    height: 400px;
+    width: 320px;
+    background: linear-gradient(to right, #222222 0%, #222222 50%, 
+    #151515 50%, #151515 100% );
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 13px rgba(0,0,0,.8);
+}
+
+.card::before,
+.card::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background: linear-gradient(45deg,#fb0090,#0000ff,#00ff00,#ffff00,#ff0000
+    ,#fb0090,#0000ff,#00ff00,#ffff00,#ff0000);
+    background-size: 400%;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    z-index: -1;
+    border-radius: 15px;
+    animation: animate 20s linear infinite;
+
+}
+
+@keyframes animate {
+    0%
+    {
+        background-position: 0 0;
+    }
+    50%
+    {
+        background-position: 400% 0;
+    }
+    100%
+    {
+        background-position: 0 0;
+    }
+}
+
+.card h3 {
+    color: #FFF;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.card p {
+    padding: 10px 20px;
+    color: #D5D5D5;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.card span {
+    color: #101010;
+}
+
+.card .space {
+    color:#fff;
+    position: relative;
+    margin-left: 35px;
+}
+
+.card a {
+    position:relative;
+    display: flex;
+    width: 150px;
+    top: 30px;
+    left: 86px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #151515 0%, #151515 50%, 
+    #222222 50%, #222222 100% );
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    border:1px solid rgba(255,255,255,.2);
+    transition: 0.5s;
+}
+
+.card a:hover {
+    transition: 0.5s;
+    background: rgba(255,255,255,.2);
+    border:1px solid rgba(255,255,255,.3);
+}
+
+.card i {
+    position: relative;
+    color:#fff;
+    margin: 25px 15px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .btn-tw {
+    background: #00acee;
+}
+
+.card .btn-tw:hover {
+    transition: 0.2s;
+    background: rgba(0,172,238,.6);
+}
+
+.card .btn-fb {
+    background: #3b5998;
+}
+
+.card .btn-fb:hover {
+    transition: 0.2s;
+    background: rgba(59,89,152,.7);
+}
+
+.card .btn-wsp {
+    background: #25d366;
+}
+
+.card .btn-wsp:hover {
+    transition: 0.2s;
+    background: rgba(37,211,102,.7);
+}

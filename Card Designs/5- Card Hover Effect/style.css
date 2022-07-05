@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 68rem;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.contenedor .card {
+    position: relative;
+    width: 17.5rem;
+    height: 390px;
+    margin: 1.8rem 2.4rem;
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(7px);
+    overflow: hidden;
+    background: rgba(255,255,255,.3);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top: 2px solid rgba(255,255,255,.5);
+    border-right: 3px solid rgba(255,255,255,.5);
+    cursor:crosshair;
+}
+
+.contenedor .card .contenido {
+    transition: 0.5s;
+    padding: 1.3rem;
+    text-align: center;
+}
+
+.contenedor .card .contenido i {
+    position: absolute;
+    font-size: 80px;
+    top: 10px;
+    left: 102px;
+}
+
+.wsp {
+    color: #25d366;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.tw {
+    color: #00acee;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.tg {
+    color: #00acee;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.pt {
+    color: #c8232c;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.contenedor .card .contenido h3 {
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    color: #0A0A0A;
+    z-index: 1;
+    text-shadow: 0px 0px 0 rgb(230,230,230),
+    0px 1px 0 rgb(206,206,206),
+    0px 2px 0 rgb(181,181,181),
+    0px 3px 0 rgb(157,157,157),
+    0px 4px 0 rgb(132,132,132),
+    0px 5px  0 rgb(107,107,107),
+    0px 6px 5px rgba(0,0,0,0.6),
+    0px 6px 1px rgba(0,0,0,0.5),
+    0px 0px 5px rgba(0,0,0,.2);
+}
+
+.contenedor .card .contenido p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.contenedor .card .contenido a {
+    position: relative;
+    display: inline;
+    padding: 5px 10px;
+    top: 45px;
+    left: 2px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 10px #FFFFFF;
+    background: rgba(255,255,255,.5);
+    border-radius: 20px;
+    transition: 0.2s;
+    box-shadow: 0 3px 17px rgba(0,0,0,0.3);
+}
+
+.contenedor .card .contenido a:hover {
+    transition: 0.2s;
+    background: rgba(255,255,255,.8);
+}

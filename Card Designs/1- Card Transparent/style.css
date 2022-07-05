@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-top-instagram {
+    background: rgba(221,42,123,0.45);
+    border-radius: 16px 16px 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card {
+    backdrop-filter: blur(14px);
+    color: #fff;
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    flex-direction: column;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.35);
+    display: flex;
+    overflow: hidden;
+    border: 2px solid rgba(255,255,255,0.10);
+    margin: 24px;
+    width: 250px;
+    transition: 0.5s;
+    height: 350px;
+}
+
+.card h2 {
+    letter-spacing: 2px;
+    margin: 12px 0;
+}
+
+.top-row {
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.top-row i {
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+.top-row h3 {
+    text-decoration: 2px underline;
+}
+
+.contenido {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contenido p {
+    color: rgba(255,255,255,0.80);
+    text-align: justify;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+.btn-insta {
+    border-radius: 10px 0 10px 0;
+    background: rgba(221,42,123,0.45);
+    height: 30px;
+    color: #fff;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+    margin: 14px 0;
+    cursor: pointer;
+    border: 1px solid rgba(221,42,123,0.65);
+}
+
+.bg-top-facebook {
+    background: rgb(59,89,151,0.70);
+}
+
+.btn-fb {
+    border-radius: 10px 0 10px 0;
+    background: rgb(59,89,151,0.45);
+    height: 30px;
+    color: #fff;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+    margin: 14px 0;
+    cursor: pointer;
+    border: 1px solid #1948AD;
+
+}
+
+.bg-top-twitter {
+    background: rgba(0,172,238,0.45);
+}
+
+.btn-tw {
+    border-radius: 10px 0 10px 0;
+    background: rgba(0,172,238,0.25);
+    height: 30px;
+    color: #fff;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+    margin: 14px 0;
+    cursor: pointer;
+    border: 1px solid #0083B5;
+}
+
+.card:hover {
+    width: 326px;
+    height: 360px;
+    transition: 0.5s;
+}

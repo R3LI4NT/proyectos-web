@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #F2F2F2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    position: relative;
+    margin: 0 50px;
+    height: 460px;
+    width: 300px;
+    background: #1A1A1A;
+    border-radius: 15px;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.74);
+}
+
+.card .contenido {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.card .bottom {
+    height: 130px;
+    width: 300px;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom: 3px solid #232323;
+}
+
+.card .contenido img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #fff;
+    top: 80px;
+    left: 103px;
+}
+
+.card .contenido h3 {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    top: 177px;
+    left: 83px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.80);
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.card .contenido p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    padding: 0 20px;
+    text-align: justify;
+    color: rgba(255,255,255,.6);
+    position: relative;
+    bottom: 10px;
+}
+
+.card .contenido .btn-follow {
+    color: #fff;
+    text-shadow: 1px 2px 2px #000;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    position: absolute;
+    left: 95px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .contenido .btn-follow:focus {
+    background: rgba(17,153,142,.8);
+    
+}
+
+.card .contenido .line {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    position: relative;
+    top: 50px;
+    left: 48px;
+    width: 200px;
+}
+
+.card .contenido .social {
+    position: absolute;
+    bottom: 68px;
+    font-size: 30px;
+    left: 22px;
+}
+
+.card .contenido .social .bx {
+    border-radius: 50%;
+    margin:0 20px;
+    padding: 5px;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+.card .contenido .social .fb {
+    position: absolute;
+    top: 45px;
+    left: 6px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.card .contenido .social .fb-followers {
+    position: absolute;
+    top: 65px;
+    color: rgba(255,255,255,.2);
+    left: -4px;
+    font-size: 12px;
+}
+
+.card .contenido .social .ig {
+    position: absolute;
+    top: 45px;
+    left: 94px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.card .contenido .social .ig-followers {
+    position: absolute;
+    top: 65px;
+    color: rgba(255,255,255,.2);
+    left: 84px;
+    font-size: 12px;
+}
+
+.card .contenido .social .tw {
+    position: absolute;
+    top: 45px;
+    left: 180px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.card .contenido .social .tw-followers {
+    position: absolute;
+    top: 65px;
+    color: rgba(255,255,255,.2);
+    left: 170px;
+    font-size: 12px;
+}
+
+
+/*----------------------------------------*/
+
+.card .bottom-2 {
+    height: 130px;
+    width: 300px;
+    background: #0575E6;
+    background: -webkit-linear-gradient(to right, #0575E6, #021B79); 
+    background: linear-gradient(to right, #0575E6, #021B79);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom: 3px solid #232323;
+}
+
+
+.card .contenido .btn-follow-2 {
+    color: #fff;
+    text-shadow: 1px 2px 2px #000;
+    background: #0575E6;
+    background: -webkit-linear-gradient(to right, #0575E6, #021B79); 
+    background: linear-gradient(to right, #0575E6, #021B79);
+    position: absolute;
+    left: 95px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .contenido .btn-follow-2:focus {
+    background: rgba(5,117,230,.5);
+}
+
+.card .contenido .social .bx-color {
+    border-radius: 50%;
+    margin:0 20px;
+    padding: 5px;
+    background: #0575E6;
+    background: -webkit-linear-gradient(to right, #0575E6, #021B79); 
+    background: linear-gradient(to right, #0575E6, #021B79);
+}
+
+.card .contenido h4 {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    top: 177px;
+    left: 73px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.80);
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

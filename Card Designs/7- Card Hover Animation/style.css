@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #D4D4D4;
+}
+
+.card {
+    position: absolute;
+    width: 20rem;
+    height: 29rem;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    box-shadow: 0 5px 15px 15px rgba(0,0,0,0.20);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 420px;
+    height:460px;
+    transition: 0.5s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+p {
+    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    word-spacing: 4px;
+    bottom: -20px;
+    font-size: 14px;
+    padding: 4.2rem 20px 3.4rem 1.25rem;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transform: translateY(71%);
+    text-align: justify;
+    transition: 0.5s;
+}
+
+p:hover {
+    transform: translateY(0);
+    transition: 0.5s;
+}
+
+.title {
+    position: absolute;
+    color: #FF7C16;
+    text-shadow: 2px 2px 3px #000;
+    bottom: 200px;
+    font-size: 35px;
+    font-weight: bold;
+    left: 97px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.btn {
+    position: absolute;
+    background: #FF7C16;
+    color: #fff;
+    padding: 5px;
+    bottom: 24px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #C45601;
+    word-spacing: 0;
+}
+
+.btn:active {
+    background: #C45601;
+    border: none;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #fff;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    margin: 0 25px;
+    height: 460px;
+    width: 300px;
+    background: #F0F0F0;
+}
+
+.card img {
+    height: 170px;
+    width: auto;
+    margin: 50px 0;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    cursor: pointer;
+    cursor:crosshair;
+}
+
+.card .heart {
+    position: absolute;
+    background: #1E1F2A;
+    padding: 10px;
+    top: 1px;
+    right: 1px;
+    color: #9EFF47;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+.contenido {
+    background: #1E1F2A;
+    height: 186px;
+    color: #fff;
+    border-top-right-radius: 110px;
+}
+
+.contenido h4 {
+    position: relative;
+    bottom: 160px;
+    font-family: 'Georama', sans-serif;
+    top: 10px;
+    font-size: 19px;
+    right: 90px;
+}
+
+.contenido i {
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    right: 89px;
+    font-size: 15px;
+    color: #FFB20C;
+}
+
+.contenido p {
+    position: absolute;
+    bottom: 58px;
+    left: -1px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding: 0 18px;
+}
+
+.contenido .precio {
+    position: absolute;
+    top: 420px;
+    color: #fff;
+    font-family: 'Georama', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    left: 16px;
+}
+
+.contenido .size {
+    font-size: 17px;
+}
+
+.contenido .btn-add {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    top: 410px;
+    right: 40px;
+    background: #2E2F37;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border-spacing: 10px 10px;
+    transition: 0.2s;
+}
+
+.contenido .btn-add:hover {
+    transition: 0.2s;
+    background: #414146;
+}
+
+/**************************/
+
+
+.contenido .title {
+    position: relative;
+    bottom: 160px;
+    font-family: 'Georama', sans-serif;
+    top: 10px;
+    font-size: 19px;
+    right: 76px;
+}
+
+.contenido .star {
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    right: 99px;
+    font-size: 15px;
+    color: #FFB20C;
+}
