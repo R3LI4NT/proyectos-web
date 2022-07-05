@@ -1,0 +1,61 @@
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    footer {
+        width: 100%;
+        height: 500px;
+    }
+    .logo {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 50px;
+    }
+
+
+    .menu-content {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 30px;
+        top: 180px;
+    }
+    .copyright-footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        background: #0A0A0A;
+        align-items: center;
+        display: flex;
+    }
+
+    .empresa-content {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 360px;
+        right: 0;
+        top: 180px;
+    }
+
+    .bx-mail-send {
+        position: absolute;
+        top: 120px;
+        left: 205px;
+    }
+    .social-content {
+        position: absolute;
+    }
+    .footer-social{
+        position: absolute;
+        left: 175px;
+        top: 140px;
+    }
+    .follow-title {
+        visibility: hidden;
+    }
+}

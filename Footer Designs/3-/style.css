@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0e0e0e;
+    color: #fff;
+    flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer-container {
+    width: 100%;
+    height: fit-content;
+    padding: 45px 96px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.bx-mail-send, .menu-item {
+    transition: 0.4s;
+    margin: 7px 0;
+    opacity: 0.6;
+    color: #fff;
+    font-weight: 200;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.menu-item:hover {
+    color: #DF1C01;
+    opacity: 1;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    border-bottom: 3px solid #fff;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.icon-footer {
+    margin: 0 5px;
+    color: #fff;
+    background: #181818;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+    position: relative;
+    right: 132px;
+}
+
+.icon-footer:hover {
+    transition: 0.2s;
+    opacity: 0.6;
+}
+
+.copyright-footer {
+    width: 100%;
+    background: #0A0A0A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 16px;
+    opacity: 0.6;
+    padding: 10px 0;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    position: fixed;
+    background-color: #16a085;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    padding: 47px;
+}
+
+.footer-container .footer-section {
+    flex-basis: 50%;
+    padding: 0 1.25rem;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-section .contenido {
+    position: relative;
+    margin: 22px 0;
+}
+
+.footer-section .contenido::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    top: -20px;
+    width: 100%;
+}
+
+.footer-section .contenido::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    top: -20px;
+    width: 15%;
+    background: #e67e22;
+}
+
+.footer-container .left .contenido .social-icons {
+    margin: 22px 0;
+}
+
+.footer-container .left .contenido .social-icons i {
+    font-size: 22px;
+    padding: 5px;
+    margin: 0 5px;
+    color: #01271F;
+    border-radius: 50%;
+    border: 1px solid #01271F;
+    transition: 0.2s;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+}
+
+.footer-container .left .contenido .social-icons i:hover {
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.20);
+}
+
+.footer-container .center .contenido .bx {
+    font-size: 18px;
+    text-align: center;
+    background: transparent;
+    height: 2.1rem;
+    width: 2.1rem;
+    line-height: 2.1rem;
+    border-radius: 50%;
+    border: 1px solid #01271F;
+    color: #01271F;
+}
+
+.footer-container .center .contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.center .contenido .info {
+    font-size: 17px;
+    color: #01271F;
+    margin-bottom: 2px;
+}
+
+.right form input {
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    opacity: .7;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+
+.right form input:focus {
+    opacity: 1;
+}
+
+.right .texto {
+    padding-bottom: 15px;
+}
+
+.right .btn button {
+    margin: 10px 0;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0px 3px rgba(0,0,0,.70);
+    cursor: pointer;
+    background: #e67e22;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px rgba(0,0,0,.70);
+}
+
+.right .btn button:active {
+    font-size: 15px;
+}
+
+.footer-copyright {
+    padding: 15px;
+    font-size: 18px;
+    background: #097C66;
+    color: #090909;
+}
+
+center span:hover {
+    text-decoration: underline #fff;
+    cursor: pointer;
+}

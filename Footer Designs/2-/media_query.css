@@ -1,0 +1,43 @@
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    footer {
+        height: 600px;
+    }
+    footer .logo {
+        display: flex;
+        left:100px;
+    }
+    footer .line {
+        left: 204px;
+    }
+    footer .servicios {
+        left: -150px;
+    }
+    footer .empresa {
+        left: 40px;
+    }
+    footer .redes-sociales {
+        right: 350px;
+        position: absolute;
+        top: 385px;
+        left: 60px;
+        display: flex;
+    }
+    footer .redes-sociales h4 {
+        position: absolute;
+    }
+    footer .redes-sociales .icon{
+        position: relative;
+        top: 20px;
+    }
+    footer .formulario {
+        position: absolute;
+        top: 440px;
+        right: 65px;
+    }
+    .top-section a {
+        left: 60px;
+        color: #ddd;
+        position: relative;
+        cursor: default;
+    }
+}

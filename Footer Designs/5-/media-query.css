@@ -1,0 +1,21 @@
+@media screen and (max-width:700px) {
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+
+    .left .contenido {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .footer-container .footer-section {
+        margin: 5px 0;
+    }
+}
