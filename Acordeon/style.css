@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background: #f5f6fa;
+}
+
+.contenido {
+    max-width: 45rem;
+    padding: 0 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.contenido h1 {
+    color: #0254A4;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+.contenido ul {
+    text-align: left;
+    list-style: none;
+}
+
+.contenido h2 {
+    font-weight: bold;
+    text-transform: none;
+    display: block;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    line-height: 2.1rem;
+    padding: 10px 10px;
+    transition: 0.2s;
+}
+
+.contenido p {
+    position: relative;
+    display: inline-block;
+    contain: layout;
+    color: #ddd;
+    max-height: 15rem;
+    will-change: max-height;
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    opacity: 1;
+    transform: translate(0,0);
+    margin: 6px 0;
+    transition: .3s opacity, .4s max-height;
+    z-index: 2;
+    hyphens: auto;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.contenido ul li {
+    position: relative;
+    overflow: hidden;
+    background: #1e272e;
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.contenido ul li span {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 30px;
+    right: 17px;
+
+}
+
+.contenido ul li span::before, ul li span::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 10px;
+    background: #fff;
+    transform: translate(-2px, 0) rotate(90deg);
+    cursor: pointer;
+}
+
+.contenido ul li span::before {
+    right: -3px;
+    transform: translate(-2px, 0) rotate(90deg);
+}
+.contenido ul li input[type=checkbox]{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    touch-action: manipulation;
+}
+
+.contenido ul li input[type=checkbox]:checked ~ p {
+    max-height: 0;
+    margin: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.contenido ul li input[type=checkbox]:checked ~ span::before {
+    background: #fff;
+    transform: translate(-2px, 0) rotate(90deg);
+}
+
+.contenido ul li input[type=checkbox]:checked ~ span::before {
+    background: #fff;
+    transform: translate(-2px, 0) rotate(0deg);
+}
