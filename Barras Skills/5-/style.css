@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    background: #081B33;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    color: #fff;
+    width: 31.25rem;
+    height: 22rem;
+    margin: 0 3.75rem;
+    background: #051428;
+    padding: 0 20px;
+    box-shadow: inset 3px 3px 20px rgba(0,0,0,.7);
+    border-radius: 7px;
+}
+
+.skills .section {
+    margin: 1.8rem 0;
+}
+
+.bar {
+    display: block;
+    height: 7px;
+    padding: 4px 0;
+    background: #051225;
+    margin-top: 10px;
+    border:1px solid #22395B;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #000;
+    box-shadow: 0 0 6px #0040B6;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 8px #000;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.line {
+    width: 192px;
+    border-bottom: 4px solid #22395B;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 134px;
+    bottom: 8px;
+}
+
+.bar span {
+    float: left;
+    height: 4px;
+    bottom: 2px;
+    position: relative;
+    background: #0040B6;
+    border-radius: 5px;
+}
+
+.bar .html {
+    width: 75%;
+    animation: html-per 2s;
+}
+
+@keyframes html-per {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+
+.bar .css {
+    width: 55%;
+    animation: css-per 2s;
+}
+
+@keyframes css-per {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 55%;
+    }
+}
+
+.bar .js {
+    width: 25%;
+    animation: js-per 2s;
+}
+
+@keyframes js-per {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}

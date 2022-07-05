@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #040814;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-progress {
+    height: 450px;
+    width: 250px;
+    box-shadow: -1px 1px 30px #F7DF1E;
+    margin: 0 60px;
+}
+
+svg {
+    width: 50%;
+}
+.section {
+    margin: 150px 0;
+}
+
+.shadow {
+    box-shadow: -1px 1px 30px #EC4718;
+}
+
+.circle-1 {
+    fill: #02050C;
+    animation:  progress-js 2s forwards;
+    stroke-linecap: round;
+    stroke-width: 2.1;
+    stroke: #EC4718;
+}
+
+.html {
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.circle-2 {
+    fill: #02050C;
+    animation:  progress-js 2s forwards;
+    stroke-linecap: round;
+    stroke-width: 2.1;
+    stroke: #F7DF1E;
+}
+
+.numb-percentage {
+    font-size: 7px;
+    font-weight: bold;
+    text-anchor:middle;
+    dominant-baseline:middle;
+    fill: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.numb-percentage:hover {
+    transition: 0.3s;
+    font-size: 9px;
+}
+
+@keyframes progress-js {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.js {
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.shadow-2 {
+    box-shadow: -1px 1px 30px #047BCD;
+}
+
+.circle-3 {
+    fill: #02050C;
+    animation:  progress-js 2s forwards;
+    stroke-linecap: round;
+    stroke-width: 2.1;
+    stroke: #047BCD;
+}
+
+.css {
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.social {
+    position: absolute;
+    top: 130px;
+    left: 247px;
+}
+
+.bx {
+    padding: 0 10px;
+    font-size: 22px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.bx:hover {
+    font-size: 19px;
+    transition: 0.2s;
+    color: #F15D32;
+    cursor: pointer;
+}
+
+.js-bx {
+    padding: 0 10px;
+    font-size: 22px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.js-bx:hover {
+    font-size: 19px;
+    transition: 0.2s;
+    color: #FFEB49;
+    cursor: pointer;
+}
+
+.css-bx {
+    padding: 0 10px;
+    font-size: 22px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.css-bx:hover {
+    font-size: 19px;
+    transition: 0.2s;
+    color: #1C94E7;
+    cursor: pointer;
+}
+
+.social-2 {
+    position: absolute;
+    top: 130px;
+    left: 618px;
+}
+
+.social-3 {
+    position: absolute;
+    top: 130px;
+    right: 247px;
+}

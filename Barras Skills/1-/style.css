@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: #fff;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 0px 0 rgb(230,230,230),
+                 0px 1px 0 rgb(206,206,206),
+                 0px 2px 0 rgb(181,181,181),
+                 0px 3px 0 rgb(157,157,157),
+                 0px 4px 0 rgb(132,132,132),
+                 0px 5px  0 rgb(107,107,107),
+                 0px 6px 5px rgba(0,0,0,0.6),
+                 0px 6px 1px rgba(0,0,0,0.5),
+                 0px 0px 5px rgba(0,0,0,.2);
+    font-family: 'Viga', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    position: relative;
+    padding: 20px 0;
+    top: 10px;
+    color: #BB86FC;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.skills {
+    width: 40rem;
+    height: 31.25rem;
+    background: #18161B;
+    border: 4px solid #121212;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px;
+}
+
+.container {
+    width: 100%;
+    background: #222025;
+}
+
+.skill {
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.html {
+    background: #E54C21;
+    animation: skillHTML 2s forwards;
+}
+
+@keyframes skillHTML {
+    0% {
+        width: 0;
+    }
+    
+    100% {
+        width:90%;
+    }
+}
+
+.css {
+    background: #2277FF;
+    animation: skillCSS 2s forwards;
+}
+
+@keyframes skillCSS {
+    0% {
+        width: 0;
+    }
+    
+    100% {
+        width:70%;
+    }
+}
+
+.js {
+    background: #F7DF1E;
+    animation: skillJS 2s forwards;
+}
+
+@keyframes skillJS {
+    0% {
+        width: 0;
+    }
+    
+    100% {
+        width:39%;
+    }
+}
