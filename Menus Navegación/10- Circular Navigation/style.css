@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #18191a;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.563rem;
+    margin-top: -1.563rem;
+}
+
+.menu input {
+    position: absolute;
+    display: none;
+}
+
+.menu .btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    background-color: #fafafa;
+    box-shadow: 0 2px 1px rgba(255,255,255,1), inset 0 -1px 6px rgba(0,0,0,1),
+    inset 0 -1px 5px rgba(255, 255, 255,.7) , 0 0 1px 1px #fff,
+    0 0 2px 0px #0F0F0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.menu .btn:hover {
+    box-shadow: 0 0 20px #00F0FF;
+}
+
+.bx {
+    font-size: 27px;
+    color: #1a1a1a;
+}
+
+.menu .btn:hover .bx {
+    color: #00F0FF;
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+}
+
+.btn:not(:first-child) {
+    opacity: 0;
+    z-index: -2;
+    transition: all 0.7s cubic-bezier(0.79, 0.33, 0.14, 0.53) 
+}
+
+.btn:nth-child(2) {
+    transition-delay: .0s;
+}
+
+.btn:nth-child(3) {
+    transition-delay: .1s;
+}
+
+.btn:nth-child(4) {
+    transition-delay: .2s;
+}
+
+.btn:nth-child(5) {
+    transition-delay: .3s;
+}
+
+.btn:nth-child(6) {
+    transition-delay: .4s;
+}
+
+.btn:nth-child(7) {
+    transition-delay: .5s;
+}
+
+
+input:checked~#show-menu .btn:nth-child(2){
+    top: -100px;
+    opacity: 1;
+}
+
+input:checked~#show-menu .btn:nth-child(3){
+    top: -50px;
+    left: 100px;
+    opacity: 1;
+}
+
+input:checked~#show-menu .btn:nth-child(4){
+    top: 50px;
+    left: 100px;
+    opacity: 1;
+}
+
+input:checked~#show-menu .btn:nth-child(5){
+    top: 100px;
+    opacity: 1;
+}
+
+input:checked~#show-menu .btn:nth-child(6){
+    top: 50px;
+    left: -100px;
+    opacity: 1;
+}
+
+input:checked~#show-menu .btn:nth-child(7){
+    top: -50px;
+    left: -100px;
+    opacity: 1;
+}
+
+
+input:checked~#show-menu .btn .closeMenu {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+input:checked~#show-menu .btn .openMenu {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+.openMenu, .closeMenu {
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+.closeMenu {
+    transform: translateX(50px);
+    opacity: 0;
+}
