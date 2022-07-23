@@ -48,4 +48,4 @@
 
 - 19).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Mini-Blog%20Responsive">Mini-Blog Responsive</a>
 
-- 20).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Mini-Blog%20Responsive">Estilos Input</a>
+- 20).<a href="https://github.com/R3LI4NT/proyectos-web/tree/main/Estilos%20Input">Estilos Input</a>
