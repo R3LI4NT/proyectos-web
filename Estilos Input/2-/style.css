@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+    background: linear-gradient(to right, #240b36, #c31432); 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-container {
+    width: 450px;
+    background-color:rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.input-container .field {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.input-container .field input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255,0,139,.5);
+    background: transparent;
+    color: #fff;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.input-container .field input:focus {
+    border-bottom: 2px solid rgba(255,0,139);
+}
+
+.input-container .field label {
+    position: absolute;
+    bottom: 27px;
+    left: 0px;
+    pointer-events: none;
+    color: rgba(255,255,255,.8);
+    transition: all 0.3s ease;
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+}
+
+.input-container input:focus ~ label {
+    transform: translateY(-20px);
+    bottom: 18px;
+    color: #fff;
+}
